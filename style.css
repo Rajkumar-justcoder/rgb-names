@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+}
+body{
+    color: white;
+    background-color: rgb(47, 47, 47);
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.text > div{
+    font-size: 4rem;
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: 10px;
+    color: #00f;
+    animation: rgb 6s infinite linear;
+}
+@keyframes rgb {
+    90%{
+        color: #0f0;
+    }
+}
