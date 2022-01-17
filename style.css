@@ -3,7 +3,8 @@
 }
 body{
     color: white;
-    background-color: rgb(47, 47, 47);
+    background-color: rgb(56, 56, 56);
+    animation: backgroundani 6s infinite linear;
 }
 .main-container{
     display: flex;
@@ -22,5 +23,13 @@ body{
 @keyframes rgb {
     90%{
         color: #0f0;
+    }
+}
+@keyframes backgroundani {
+    40%{
+        background-color: rgb(41, 41, 41);
+    }
+    90%{
+        background-color: rgb(27, 27, 27);
     }
 }
