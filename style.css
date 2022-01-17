@@ -21,15 +21,12 @@ body{
     animation: rgb 6s infinite linear;
 }
 @keyframes rgb {
-    90%{
+    70%{
         color: #0f0;
     }
 }
 @keyframes backgroundani {
-    40%{
-        background-color: rgb(41, 41, 41);
-    }
-    90%{
+    70%{
         background-color: rgb(27, 27, 27);
     }
 }
