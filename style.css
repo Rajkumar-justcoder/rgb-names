@@ -3,14 +3,16 @@
 }
 body{
     color: white;
-    background-color: rgb(56, 56, 56);
-    animation: backgroundani 6s infinite linear;
+    background-color: rgb(47, 47, 47);
+    animation: backgroundani 10s infinite linear;
 }
 .main-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    flex-direction: column;
+    height: 100vh;
+    user-select: none;
 }
 
 .text > div{
@@ -18,7 +20,7 @@ body{
     font-family: 'Russo One', sans-serif;
     letter-spacing: 10px;
     color: #00f;
-    animation: rgb 6s infinite linear;
+    animation: rgb 10s infinite linear;
 }
 @keyframes rgb {
     70%{
@@ -28,5 +30,36 @@ body{
 @keyframes backgroundani {
     70%{
         background-color: rgb(27, 27, 27);
+    }
+}
+
+
+.footercss{
+    display: flex;
+    justify-content: center;
+    padding: 3% 0;
+    width: auto
+}
+.footerdiv{
+    color: white;
+    border: solid rgba(255,255,255,.25);
+    border-width: 4px 0;
+    padding: auto;
+    border-radius: 10px;
+}
+h2{
+    margin: 10px;
+}
+a{
+    text-decoration: none; 
+    color: #00f;
+    animation: atag 10s infinite linear;
+}
+/* a:hover{
+    color: #00a96b;
+} */
+@keyframes atag {
+    70%{
+        color: #0f0;
     }
 }
